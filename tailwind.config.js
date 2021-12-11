@@ -12,7 +12,7 @@ module.exports = {
 				}
 			},
 			fontFamily: {
-				"josefin": ["Josefin Sans"]
+				"lexend": ["Lexend Deca"]
 			}
 		}
 	},
