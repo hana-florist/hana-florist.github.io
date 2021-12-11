@@ -5,12 +5,6 @@ module.exports = {
 	],
 	theme: {
 		extend: {
-			colors: {
-				hf: {
-					cornsilk: "#FFF8DC",
-					gray: "rgb(81, 78, 69)"
-				}
-			},
 			fontFamily: {
 				"lexend": ["Lexend Deca"]
 			}
