@@ -6,7 +6,7 @@ import {
 	ShoppingCartIcon
 } from "@heroicons/vue/outline";
 
-import BottomNavbarItem from "~/components/BottomNavbarItem.vue";
+import BottomNavbarItem from "~/components/navbar/BottomNavbarItem.vue";
 </script>
 
 <template>
