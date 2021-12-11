@@ -1,9 +1,8 @@
 module.exports = {
-	purge: [
+	content: [
 		"./index.html",
 		"./src/**/*.{js,vue}"
 	],
-	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
 			colors: {
@@ -13,9 +12,6 @@ module.exports = {
 				}
 			}
 		}
-	},
-	variants: {
-		extend: {}
 	},
 	plugins: []
 };
