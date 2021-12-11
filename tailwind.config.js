@@ -7,7 +7,7 @@ module.exports = {
 		extend: {
 			colors: {
 				hf: {
-					beige: "rgb(246, 240, 225)",
+					cornsilk: "#FFF8DC",
 					gray: "rgb(81, 78, 69)"
 				}
 			},
