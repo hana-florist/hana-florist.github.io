@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: josefin;
+	src: url(~/assets/font/JosefinSans-Regular.ttf);
+}

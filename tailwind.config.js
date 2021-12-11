@@ -10,6 +10,9 @@ module.exports = {
 					beige: "rgb(246, 240, 225)",
 					gray: "rgb(81, 78, 69)"
 				}
+			},
+			fontFamily: {
+				"josefin": ["Josefin Sans"]
 			}
 		}
 	},
