@@ -8,8 +8,11 @@ defineProps({
 
 const options = {
 	type: "loop",
-	gap: "3rem",
-	arrows: false
+	breakpoints: {
+		639: {
+			arrows: false
+		}
+	}
 };
 </script>
 
