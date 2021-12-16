@@ -1,3 +1,7 @@
+<script setup>
+import MainHero from "~/components/hero/MainHero.vue";
+</script>
+
 <template>
-	<h1>index</h1>
+	<MainHero />
 </template>
