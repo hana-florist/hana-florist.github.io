@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 @font-face {
+	font-display: swap;
 	font-family: "Lexend Deca";
 	font-weight: 300;
 	src: url(~/assets/font/LexendDeca.ttf);
 }
 
 @font-face {
+	font-display: swap;
 	font-family: "Linotte";
 	src: url(~/assets/font/Linotte.otf);
 }
