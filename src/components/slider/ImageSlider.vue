@@ -11,7 +11,7 @@ const options = {
 	arrows: true,
 	pagination: false,
 	autoplay: true,
-	interval: 4000,
+	interval: 3600,
 	pauseOnHover: false,
 	pauseOnFocus: false,
 	breakpoints: {
