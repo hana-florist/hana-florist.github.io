@@ -20,6 +20,7 @@ const options = {
 	<Splide :options="options">
 		<SplideSlide v-for="i in images" :key="i">
 			<img
+				alt="placeholder flower image"
 				:class="imgClass"
 				:src="i"
 			/>
