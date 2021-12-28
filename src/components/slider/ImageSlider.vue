@@ -8,9 +8,17 @@ defineProps({
 
 const options = {
 	type: "loop",
+	arrows: true,
+	pagination: false,
+	autoplay: true,
+	interval: 4000,
+	pauseOnHover: false,
+	pauseOnFocus: false,
 	breakpoints: {
-		639: {
-			arrows: false
+		767: {
+			arrows: false,
+			pagination: true,
+			autoplay: false
 		}
 	}
 };
