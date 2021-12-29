@@ -16,7 +16,7 @@ const images = [Image01, Image02, Image03, Image04, Image05, Image06, Image07, I
 
 <template>
 	<div class="container mx-auto">
-		<div class="flex justify-center items-center my-9">
+		<div class="flex justify-center items-center my-3 md:my-9">
 			<img
 				alt="instagram logo"
 				class="mr-3 md:mr-6 w-12 md:w-20"
