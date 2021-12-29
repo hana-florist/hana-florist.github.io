@@ -9,7 +9,7 @@ defineProps({
 	<div class="pt-2 pb-1.5">
 		<router-link :to="href" class="text-red-200">
 			<slot></slot>
-			<p class="mt-1.5 text-xs">
+			<p class="mt-1.5 text-sm">
 				{{ text }}
 			</p>
 		</router-link>
