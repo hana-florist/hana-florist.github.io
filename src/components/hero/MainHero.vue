@@ -1,5 +1,5 @@
 <script setup>
-import ImageSlider from "~/components/slider/ImageSlider.vue";
+import ImageSlider from "~/components/gallery/ImageSlider.vue";
 import Placeholder0 from "~/assets/img/placeholder-21-9.svg";
 import Placeholder1 from "~/assets/img/placeholder-1-1.svg";
 </script>
