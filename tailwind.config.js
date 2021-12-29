@@ -6,6 +6,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
+				"cormorant": ["Cormorant SC"],
 				"lexend": ["Lexend Deca"],
 				"linotte": ["Linotte"]
 			}
