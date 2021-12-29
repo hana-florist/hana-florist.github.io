@@ -27,7 +27,7 @@ const images = [Image01, Image02, Image03, Image04, Image05, Image06, Image07, I
 				rel="noreferrer"
 				target="_blank"
 			>
-				<div class="flex flex-col">
+				<div class="flex flex-col text-red-800">
 					<p class="text-lg md:text-2xl text-center">
 						Follow us on Instagram
 					</p>
