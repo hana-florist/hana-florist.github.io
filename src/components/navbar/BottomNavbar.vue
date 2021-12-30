@@ -11,7 +11,7 @@ import BottomNavbarItem from "~/components/navbar/BottomNavbarItem.vue";
 
 <template>
 	<div class="md:hidden fixed bottom-0 px-3 pb-3 w-full">
-		<div class="flex justify-evenly bg-red-900 rounded">
+		<div class="flex bg-red-900 rounded">
 			<BottomNavbarItem href="/" text="Home">
 				<HomeIcon class="mx-auto w-6 h-6" />
 			</BottomNavbarItem>
