@@ -3,11 +3,11 @@ import TopNavbarItem from "~/components/navbar/TopNavbarItem.vue";
 </script>
 
 <template>
-	<div class="md:hidden w-full">
+	<div class="md:hidden w-full bg-red-900">
 		<div class="flex justify-center py-3 mx-auto">
 			<img
 				class="w-24"
-				src="~~/assets/img/logo.svg"
+				src="~~/assets/img/logo-light.svg"
 				alt="hana floristry logo"
 			/>
 		</div>
@@ -18,7 +18,7 @@ import TopNavbarItem from "~/components/navbar/TopNavbarItem.vue";
 			<div>
 				<img
 					class="w-28"
-					src="~~/assets/img/logo.svg"
+					src="~~/assets/img/logo-dark.svg"
 					alt="hana floristry logo"
 				/>
 			</div>
