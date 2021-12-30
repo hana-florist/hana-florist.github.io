@@ -3,7 +3,7 @@ import TopNavbarItem from "~/components/navbar/TopNavbarItem.vue";
 </script>
 
 <template>
-	<div class="md:hidden w-full bg-red-900">
+	<div class="sticky top-0 z-10 md:hidden w-full bg-red-900">
 		<div class="flex justify-center py-3 mx-auto">
 			<img
 				class="w-24"
