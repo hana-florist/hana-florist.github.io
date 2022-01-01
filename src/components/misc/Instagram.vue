@@ -20,6 +20,7 @@ const images = [Image01, Image02, Image03, Image04, Image05, Image06, Image07, I
 			<img
 				alt="instagram logo"
 				class="mr-3 md:mr-6 w-12 md:w-20"
+				loading="lazy"
 				src="~~/assets/img/instagram-logo.svg"
 			/>
 			<a
@@ -48,7 +49,11 @@ const images = [Image01, Image02, Image03, Image04, Image05, Image06, Image07, I
 					rel="noreferrer"
 					target="_blank"
 				>
-					<img alt="flower image" :src="images[i - 1]" />
+					<img
+						alt="flower image"
+						loading="lazy"
+						:src="images[i - 1]"
+					/>
 				</a>
 			</div>
 		</div>
@@ -63,7 +68,11 @@ const images = [Image01, Image02, Image03, Image04, Image05, Image06, Image07, I
 					rel="noreferrer"
 					target="_blank"
 				>
-					<img alt="flower image" :src="images[i - 1]" />
+					<img
+						alt="flower image"
+						loading="lazy"
+						:src="images[i - 1]"
+					/>
 				</a>
 			</div>
 		</div>
