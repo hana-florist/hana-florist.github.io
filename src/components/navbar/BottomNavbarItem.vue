@@ -6,14 +6,14 @@ defineProps({
 </script>
 
 <template>
-	<div class="basis-1/4 pt-2 pb-1.5">
-		<router-link :to="href" class="text-red-200">
+	<router-link class="basis-1/4 text-red-200" :to="href">
+		<div class="pt-2 pb-1.5">
 			<slot></slot>
-			<p class="basis-1/4 mt-1.5 text-sm text-center">
+			<p class="mt-1.5 text-sm text-center">
 				{{ text }}
 			</p>
-		</router-link>
-	</div>
+		</div>
+	</router-link>
 </template>
 
 <style scoped>
