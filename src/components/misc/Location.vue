@@ -35,6 +35,7 @@
 			class="w-full sm:max-w-full h-80"
 			loading="lazy"
 			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15927.192225871584!2d98.7045368!3d3.6335252!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5243c0b93ddcbd4a!2sHANA%20Floristry!5e0!3m2!1sen!2ssg!4v1640790795083!5m2!1sen!2ssg"
+			title="google maps embed"
 		/>
 	</div>
 </template>
