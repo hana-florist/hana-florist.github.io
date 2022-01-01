@@ -30,7 +30,6 @@ const options = {
 			<img
 				alt="placeholder flower image"
 				:class="imgClass"
-				loading="lazy"
 				:src="i"
 			/>
 		</SplideSlide>
