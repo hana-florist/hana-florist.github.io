@@ -6,7 +6,7 @@ defineProps({
 </script>
 
 <template>
-	<router-link class="basis-1/4 text-red-200" :to="href">
+	<router-link class="basis-1/3 text-red-200" :to="href">
 		<div class="pt-2 pb-1.5">
 			<slot></slot>
 			<p class="mt-1.5 text-sm text-center">

@@ -2,8 +2,7 @@
 import {
 	BookOpenIcon,
 	HomeIcon,
-	PhoneIcon,
-	ShoppingCartIcon
+	PhoneIcon
 } from "@heroicons/vue/outline";
 
 import BottomNavbarItem from "~/components/navbar/BottomNavbarItem.vue";
@@ -17,9 +16,6 @@ import BottomNavbarItem from "~/components/navbar/BottomNavbarItem.vue";
 			</BottomNavbarItem>
 			<BottomNavbarItem href="/catalogue" text="Catalogue">
 				<BookOpenIcon class="mx-auto w-6 h-6" />
-			</BottomNavbarItem>
-			<BottomNavbarItem href="/cart" text="Cart">
-				<ShoppingCartIcon class="mx-auto w-6 h-6" />
 			</BottomNavbarItem>
 			<BottomNavbarItem href="/contact" text="Contact">
 				<PhoneIcon class="mx-auto w-6 h-6" />

@@ -28,7 +28,11 @@ import TopNavbarItem from "~/components/navbar/TopNavbarItem.vue";
 				<TopNavbarItem href="/contact" text="Contact" />
 			</div>
 			<div>
-				<TopNavbarItem href="/cart" text="Cart" />
+				<TopNavbarItem
+					class="hidden"
+					href="/cart"
+					text="Cart"
+				/>
 			</div>
 		</div>
 	</div>
