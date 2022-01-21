@@ -1,18 +1,21 @@
 <script setup>
+import Display1 from "~/assets/img/display/display-1.jpg";
+import Display2 from "~/assets/img/display/display-2.jpg";
+import Display3 from "~/assets/img/display/display-3.jpg";
+import Display4 from "~/assets/img/display/display-4.jpg";
+import Display5 from "~/assets/img/display/display-5.jpg";
+import Display6 from "~/assets/img/display/display-6.jpg";
+import Display7 from "~/assets/img/display/display-7.jpg";
+import Display8 from "~/assets/img/display/display-8.jpg";
+import Display9 from "~/assets/img/display/display-9.jpg";
 import ImageSlider from "~/components/gallery/ImageSlider.vue";
-import Placeholder0 from "~/assets/img/placeholder-21-9.svg";
-import Placeholder1 from "~/assets/img/placeholder-1-1.svg";
+
+const images = [Display1, Display2, Display3, Display4, Display5, Display6, Display7, Display8, Display9];
 </script>
 
 <template>
 	<ImageSlider
-		class="hidden md:block mb-12 md:mb-24"
-		:images="[Placeholder0, Placeholder0, Placeholder0]"
-		:img-class="['mx-auto w-full']"
-	/>
-	<ImageSlider
-		class="md:hidden mb-12 md:mb-24"
-		:images="[Placeholder1, Placeholder1, Placeholder1]"
-		:img-class="['mx-auto w-full']"
+		class="mb-12 md:mb-24"
+		:images="images"
 	/>
 </template>
