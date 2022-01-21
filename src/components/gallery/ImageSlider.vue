@@ -2,12 +2,15 @@
 import { Splide, SplideSlide } from "@splidejs/vue-splide";
 
 defineProps({
-	images: Array,
-	imgClass: Array
+	images: Array
 });
 
 const options = {
 	type: "loop",
+	autoWidth: true,
+	start: 2,
+	focus: "center",
+	gap: "60px",
 	arrows: true,
 	pagination: false,
 	autoplay: true,
@@ -29,8 +32,8 @@ const options = {
 		<SplideSlide v-for="i in images" :key="i">
 			<img
 				alt="placeholder flower image"
-				:class="imgClass"
 				:src="i"
+				style="height: 450px"
 			/>
 		</SplideSlide>
 	</Splide>
