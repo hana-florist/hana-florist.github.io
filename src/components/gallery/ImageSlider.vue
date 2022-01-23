@@ -16,7 +16,6 @@ defineProps({
 					alt="placeholder flower image"
 					class="mx-auto"
 					:src="i"
-					style="height: 450px"
 				/>
 			</SplideSlide>
 		</Splide>
