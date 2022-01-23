@@ -25,7 +25,11 @@ import TopNavbarItem from "~/components/navbar/TopNavbarItem.vue";
 			<div class="flex justify-between">
 				<TopNavbarItem href="/" text="Home" />
 				<TopNavbarItem href="/catalogue" text="Catalogue" />
-				<TopNavbarItem href="/contact" text="Contact" />
+				<TopNavbarItem
+					:external="true"
+					href="https://api.whatsapp.com/send?phone=628153898399"
+					text="Contact"
+				/>
 			</div>
 			<div>
 				<TopNavbarItem
