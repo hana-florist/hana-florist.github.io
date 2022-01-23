@@ -2,28 +2,10 @@
 import { Splide, SplideSlide } from "@splidejs/vue-splide";
 
 defineProps({
-	images: Array
+	images: Array,
+	options: Object
 });
 
-const options = {
-	type: "loop",
-	autoWidth: true,
-	start: 1,
-	focus: "center",
-	gap: "3rem",
-	arrows: true,
-	pagination: false,
-	autoplay: true,
-	interval: 3600,
-	pauseOnHover: false,
-	pauseOnFocus: false,
-	breakpoints: {
-		767: {
-			arrows: false,
-			pagination: true
-		}
-	}
-};
 </script>
 
 <template>

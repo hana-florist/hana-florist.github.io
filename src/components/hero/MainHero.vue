@@ -10,11 +10,32 @@ import Display8 from "~/assets/img/display/display-8.jpg";
 import ImageSlider from "~/components/gallery/ImageSlider.vue";
 
 const images = [Display1, Display2, Display3, Display4, Display5, Display6, Display7, Display8];
+
+const options = {
+	type: "loop",
+	autoWidth: true,
+	start: 1,
+	focus: "center",
+	gap: "3rem",
+	arrows: true,
+	pagination: false,
+	autoplay: true,
+	interval: 3600,
+	pauseOnHover: false,
+	pauseOnFocus: false,
+	breakpoints: {
+		767: {
+			arrows: false,
+			pagination: true
+		}
+	}
+};
 </script>
 
 <template>
 	<ImageSlider
 		class="mb-12 md:mb-24"
 		:images="images"
+		:options="options"
 	/>
 </template>
