@@ -8,9 +8,9 @@ defineProps({
 const options = {
 	type: "loop",
 	autoWidth: true,
-	start: 2,
+	start: 1,
 	focus: "center",
-	gap: "60px",
+	gap: "3rem",
 	arrows: true,
 	pagination: false,
 	autoplay: true,
@@ -20,21 +20,22 @@ const options = {
 	breakpoints: {
 		767: {
 			arrows: false,
-			pagination: true,
-			autoplay: false
+			pagination: true
 		}
 	}
 };
 </script>
 
 <template>
-	<Splide :options="options">
-		<SplideSlide v-for="i in images" :key="i">
-			<img
-				alt="placeholder flower image"
-				:src="i"
-				style="height: 450px"
-			/>
-		</SplideSlide>
-	</Splide>
+	<div class="py-24 text-center bg-red-900">
+		<Splide class="bg-red-900" :options="options">
+			<SplideSlide v-for="i in images" :key="i">
+				<img
+					alt="placeholder flower image"
+					:src="i"
+					style="height: 450px"
+				/>
+			</SplideSlide>
+		</Splide>
+	</div>
 </template>
