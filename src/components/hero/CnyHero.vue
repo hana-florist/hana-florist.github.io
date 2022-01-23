@@ -20,8 +20,8 @@ const options = {
 </script>
 
 <template>
-	<div class="container lg:flex mx-auto">
-		<div class="basis-2/5 px-6 md:px-16 mb-12 md:mb-24">
+	<div class="container lg:flex gap-12 px-6 mx-auto">
+		<div class="mb-12 md:mb-24 w-full lg:w-2/5">
 			<h1 class="mb-6 text-5xl md:text-7xl text-red-800">
 				Flowers of
 				<span class="font-bold text-red-600">Prosperity</span>
@@ -36,7 +36,7 @@ const options = {
 			</button>
 		</div>
 		<ImageSlider
-			class="basis-3/5"
+			class="ml-auto w-fit"
 			:images="images"
 			:options="options"
 		/>
