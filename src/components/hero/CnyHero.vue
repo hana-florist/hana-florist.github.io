@@ -27,7 +27,7 @@ const options = {
 				<span class="font-bold text-red-600">Prosperity</span>
 			</h1>
 			<p class="px-6 md:px-16 font-lexend text-lg md:text-2xl text-red-800">
-				Auspicious decorative flowers your Chinese New Year celebrations
+				Auspicious decorative flowers for your Chinese New Year celebrations
 			</p>
 		</div>
 		<ImageSlider
