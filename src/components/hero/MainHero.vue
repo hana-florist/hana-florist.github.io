@@ -7,10 +7,9 @@ import Display5 from "~/assets/img/display/display-5.jpg";
 import Display6 from "~/assets/img/display/display-6.jpg";
 import Display7 from "~/assets/img/display/display-7.jpg";
 import Display8 from "~/assets/img/display/display-8.jpg";
-import Display9 from "~/assets/img/display/display-9.jpg";
 import ImageSlider from "~/components/gallery/ImageSlider.vue";
 
-const images = [Display1, Display2, Display3, Display4, Display5, Display6, Display7, Display8, Display9];
+const images = [Display1, Display2, Display3, Display4, Display5, Display6, Display7, Display8];
 </script>
 
 <template>
