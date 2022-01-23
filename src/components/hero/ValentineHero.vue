@@ -29,11 +29,12 @@ const options = {
 			<p class="mb-6 font-lexend text-lg md:text-2xl text-red-800">
 				Endearing bouquets and ornaments to surprise your special someone on Valentine's Day
 			</p>
-			<button
+			<router-link
 				class="px-6 py-2 text-lg md:text-2xl text-red-100 bg-red-900 rounded-md"
+				to="/catalogue"
 			>
 				Browse
-			</button>
+			</router-link>
 		</div>
 		<ImageSlider
 			class="order-first mx-auto lg:ml-0 lg:mr-auto w-fit"
