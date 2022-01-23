@@ -34,7 +34,6 @@ const options = {
 
 <template>
 	<ImageSlider
-		class="mb-12 md:mb-24"
 		:images="images"
 		:options="options"
 	/>
