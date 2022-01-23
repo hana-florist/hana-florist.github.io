@@ -21,12 +21,12 @@ const options = {
 
 <template>
 	<div class="container lg:flex py-12 md:py-24 mx-auto">
-		<div class="basis-2/5 mb-12 md:mb-24">
-			<h1 class="px-6 md:px-16 mb-6 text-5xl md:text-7xl text-red-800">
+		<div class="basis-2/5 px-6 md:px-16 mb-12 md:mb-24">
+			<h1 class="mb-6 text-5xl md:text-7xl text-red-800">
 				Flowers of
 				<span class="font-bold text-red-600">Prosperity</span>
 			</h1>
-			<p class="px-6 md:px-16 font-lexend text-lg md:text-2xl text-red-800">
+			<p class="mb-6 font-lexend text-lg md:text-2xl text-red-800">
 				Auspicious decorative flowers for your Chinese New Year celebrations
 			</p>
 		</div>
