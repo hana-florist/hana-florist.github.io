@@ -14,6 +14,7 @@ defineProps({
 			<SplideSlide v-for="i in images" :key="i">
 				<img
 					alt="placeholder flower image"
+					class="mx-auto"
 					:src="i"
 					style="height: 450px"
 				/>
