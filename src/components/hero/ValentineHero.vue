@@ -36,7 +36,7 @@ const options = {
 			</button>
 		</div>
 		<ImageSlider
-			class="order-first mx-auto lg:mr-auto w-fit"
+			class="order-first mx-auto lg:ml-0 lg:mr-auto w-fit"
 			:images="images"
 			:options="options"
 		/>
