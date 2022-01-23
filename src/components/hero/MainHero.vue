@@ -14,7 +14,7 @@ const images = [Display1, Display2, Display3, Display4, Display5, Display6, Disp
 const options = {
 	type: "loop",
 	autoWidth: true,
-	start: 1,
+	start: 6,
 	focus: "center",
 	gap: "3rem",
 	arrows: true,
