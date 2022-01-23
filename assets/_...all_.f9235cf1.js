@@ -1,0 +1,1 @@
+import{q as e,d as t,o}from"./vendor.820da09b.js";const n={class:"my-12 text-3xl text-center"},d={setup(c){return e(()=>window.location.href="/"),(r,s)=>(o(),t("h1",n," Redirecting... "))}};export{d as default};
