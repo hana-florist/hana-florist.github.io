@@ -9,7 +9,7 @@ defineProps({
 </script>
 
 <template>
-	<div class="py-24 text-center">
+	<div class="text-center">
 		<Splide :options="options">
 			<SplideSlide v-for="i in images" :key="i">
 				<img
