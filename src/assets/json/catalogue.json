@@ -1,0 +1,19 @@
+{
+	"cny": [
+		{ "name": "Tora", "price": "228.000" },
+		{ "name": "Bonsai", "price": "388.000", "description": "Lights included" },
+		{ "name": "HUAT Arrangement", "price": "888.888" },
+		{ "name": "Koun Vase", "price": "228.000" },
+		{ "name": "Fu Vase", "price": "358.000" },
+		{ "name": "Xing Vase", "price": "258.000" }
+	],
+	"valentine": [
+		{ "name": "Yuri", "price": "388.000", "description": "Fresh flower bouquet" },
+		{ "name": "Kaneshon", "price": "198.000", "description": "Fresh flower bouquet" },
+		{ "name": "Shinaina", "price": "228.000", "description": "+ Rp 18.000 for Topper add-on. Available in red, pink and blue" },
+		{ "name": "Aijo Love Box", "price": "468.000" },
+		{ "name": "Romansu", "price": "388.000" },
+		{ "name": "Eien", "price": "358.000", "description": "Dried flowers" },
+		{ "name": "Korean Bag", "price": "250.000", "description": "+ Rp 18.000 for Topper add-on" }
+	]
+}
