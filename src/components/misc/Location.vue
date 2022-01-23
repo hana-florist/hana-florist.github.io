@@ -1,5 +1,5 @@
 <template>
-	<div class="container block md:flex gap-6 px-3 mx-auto mb-12 md:mb-24 lg:max-w-screen-lg">
+	<div class="container block md:flex gap-6 px-3 mx-auto lg:max-w-screen-lg">
 		<div class="mb-4 w-full lg:w-1/2 text-lg text-red-800">
 			<p class="font-cormorant text-3xl">
 				📍Find Us
