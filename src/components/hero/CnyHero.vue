@@ -29,6 +29,11 @@ const options = {
 			<p class="mb-6 font-lexend text-lg md:text-2xl text-red-800">
 				Auspicious decorative flowers for your Chinese New Year celebrations
 			</p>
+			<button
+				class="px-6 py-2 text-lg md:text-2xl text-red-100 bg-red-900 rounded-md"
+			>
+				Browse
+			</button>
 		</div>
 		<ImageSlider
 			class="basis-3/5"
