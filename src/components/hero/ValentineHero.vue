@@ -1,10 +1,10 @@
 <script setup>
 import ImageSlider from "~/components/gallery/ImageSlider.vue";
-import Valentine1 from "~/assets/img/valentine/valentine-1.jpg";
-import Valentine3 from "~/assets/img/valentine/valentine-3.jpg";
-import Valentine5 from "~/assets/img/valentine/valentine-5.jpg";
+import Val01 from "~/assets/img/valentine/valentine-01.jpg";
+import Val03 from "~/assets/img/valentine/valentine-03.jpg";
+import Val05 from "~/assets/img/valentine/valentine-05.jpg";
 
-const images = [Valentine1, Valentine3, Valentine5];
+const images = [Val01, Val03, Val05];
 
 const options = {
 	type: "fade",
