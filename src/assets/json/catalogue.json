@@ -14,6 +14,10 @@
 		{ "name": "Aijo Love Box", "price": "468.000" },
 		{ "name": "Romansu", "price": "388.000" },
 		{ "name": "Eien", "price": "358.000", "description": "Dried flowers" },
-		{ "name": "Korean Bag", "price": "250.000", "description": "+ Rp 18.000 for Topper add-on" }
+		{ "name": "Korean Bag", "price": "250.000", "description": "+ Rp 18.000 for Topper add-on" },
+		{ "name": "Preserved Dome #Lv", "price": "348.000" },
+		{ "name": "Preserved Showcase", "price": "268.000", "description": "Available in mirabel, pink and tiffany" },
+		{ "name": "Usagi Dome", "price": "688.000" },
+		{ "name": "Kuma #1", "price": "368.000" }
 	]
 }

@@ -7,19 +7,23 @@ import Cny3 from "~/assets/img/cny/cny-3.jpg";
 import Cny4 from "~/assets/img/cny/cny-4.jpg";
 import Cny5 from "~/assets/img/cny/cny-5.jpg";
 import Cny6 from "~/assets/img/cny/cny-6.jpg";
-import Val1 from "~/assets/img/valentine/valentine-1.jpg";
-import Val2 from "~/assets/img/valentine/valentine-2.jpg";
-import Val3 from "~/assets/img/valentine/valentine-3.jpg";
-import Val4 from "~/assets/img/valentine/valentine-4.jpg";
-import Val5 from "~/assets/img/valentine/valentine-5.jpg";
-import Val6 from "~/assets/img/valentine/valentine-6.jpg";
-import Val7 from "~/assets/img/valentine/valentine-7.jpg";
+import Val01 from "~/assets/img/valentine/valentine-01.jpg";
+import Val02 from "~/assets/img/valentine/valentine-02.jpg";
+import Val03 from "~/assets/img/valentine/valentine-03.jpg";
+import Val04 from "~/assets/img/valentine/valentine-04.jpg";
+import Val05 from "~/assets/img/valentine/valentine-05.jpg";
+import Val06 from "~/assets/img/valentine/valentine-06.jpg";
+import Val07 from "~/assets/img/valentine/valentine-07.jpg";
+import Val08 from "~/assets/img/valentine/valentine-08.jpg";
+import Val09 from "~/assets/img/valentine/valentine-09.jpg";
+import Val10 from "~/assets/img/valentine/valentine-10.jpg";
+import Val11 from "~/assets/img/valentine/valentine-11.jpg";
 import catalogueData from "~/assets/json/catalogue.json";
 
 const cnyData = catalogueData.cny;
 const cnyImages = [Cny1, Cny2, Cny3, Cny4, Cny5, Cny6];
 const valData = catalogueData.valentine;
-const valImages = [Val1, Val2, Val3, Val4, Val5, Val6, Val7];
+const valImages = [Val01, Val02, Val03, Val04, Val05, Val06, Val07, Val08, Val09, Val10, Val11];
 </script>
 
 <template>
