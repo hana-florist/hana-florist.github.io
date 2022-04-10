@@ -18,7 +18,7 @@ import BottomNavbarItem from "~/components/navbar/BottomNavbarItem.vue";
 				<BookOpenIcon class="mx-auto w-6 h-6" />
 			</BottomNavbarItem>
 			<BottomNavbarItem
-				external="true"
+				:external="true"
 				href="https://api.whatsapp.com/send?phone=628153898399"
 				text="Contact"
 			>
